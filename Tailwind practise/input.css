@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+
+.componentsafter{
+    text-align:center;
+}
+
+/* .btn {
+    @apply bg-violet-700 sm:bg-green-500 lg:bg-yellow-700 text-white h-10 w-24 rounded-lg active:bg-purple-950 sm:active:bg-green-900 lg:active:bg-yellow-950 focus:outline-red-900 cursor-pointer;
+} */
+
+@tailwind utilities;
+
+@layer components{
+    .btn {
+        @apply bg-violet-700 sm:bg-green-500 lg:bg-yellow-700 text-white h-10 w-24 rounded-lg active:bg-purple-950 sm:active:bg-green-900 lg:active:bg-yellow-950 focus:outline-red-900 cursor-pointer;
+    }
+    
+}
